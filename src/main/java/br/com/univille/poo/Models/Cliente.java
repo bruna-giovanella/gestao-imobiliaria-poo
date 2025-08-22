@@ -1,4 +1,4 @@
-package br.com.univille.poo;
+package br.com.univille.poo.Models;
 
 public class Cliente {
     String nome;
@@ -10,6 +10,14 @@ public class Cliente {
     String email;
 
     String endereco;
+
+    public Cliente(String nome, String cpf, String telefone, String email, String endereco) {
+        this.nome = nome;
+        this.cpf = cpf;
+        this.telefone = telefone;
+        this.email = email;
+        this.endereco = endereco;
+    }
 
     public String getNome() {
         return nome;

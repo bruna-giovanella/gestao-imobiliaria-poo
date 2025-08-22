@@ -1,4 +1,4 @@
-package br.com.univille.poo;
+package br.com.univille.poo.Models;
 
 public class Imovel {
     String endereco;
@@ -12,6 +12,14 @@ public class Imovel {
     String descricao;
 
     Boolean disponivel;
+
+    public Imovel(String endereco, String tipo, int quartos, int banheiros, String descricao) {
+        this.endereco = endereco;
+        this.tipo = tipo;
+        this.quartos = quartos;
+        this.banheiros = banheiros;
+        this.descricao = descricao;
+    }
 
     public String getEndereco() {
         return endereco;
@@ -57,7 +65,6 @@ public class Imovel {
         return disponivel;
     }
 
-    public void setDisponivel(Boolean disponivel) {
-        this.disponivel = disponivel;
-    }
+    public void setDisponivel(Boolean disponivel) {this.disponivel = disponivel;}
+
 }
