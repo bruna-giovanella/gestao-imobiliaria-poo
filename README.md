@@ -31,6 +31,7 @@ CREATE TABLE contrato (
     valor_aluguel DECIMAL(10,2) NOT NULL,
     data_inicio DATE NOT NULL,
     data_fim DATE NOT NULL,
+    ativo BOOLEAN DEFAULT 1
     
     CONSTRAINT fk_contrato_imovel FOREIGN KEY (id_imovel)
         REFERENCES imovel(id) ON DELETE CASCADE
