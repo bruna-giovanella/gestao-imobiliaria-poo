@@ -77,6 +77,7 @@ INSERT INTO contrato (id_imovel, id_cliente, valor_aluguel, data_inicio, data_fi
         REFERENCES cliente(id) ON DELETE CASCADE
 );
 
+![WhatsApp Image 2025-08-23 at 15 41 09](https://github.com/user-attachments/assets/c39b380a-4ab0-4e90-bcfe-04577f531428)
+![WhatsApp Image 2025-08-23 at 15 54 26](https://github.com/user-attachments/assets/956e5c6f-c4ac-4d10-9064-355891bfa09e)
 
-<img width="1193" height="697" alt="image" src="https://github.com/user-attachments/assets/7b494afd-c97e-4bb2-8809-f6299815cdd1" />
-<img width="361" height="348" alt="image" src="https://github.com/user-attachments/assets/3bacdc0b-6495-4d22-b744-99769f9b02e3" />
+
