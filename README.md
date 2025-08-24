@@ -76,3 +76,7 @@ INSERT INTO contrato (id_imovel, id_cliente, valor_aluguel, data_inicio, data_fi
     CONSTRAINT fk_contrato_cliente FOREIGN KEY (id_cliente),
         REFERENCES cliente(id) ON DELETE CASCADE
 );
+
+
+<img width="1193" height="697" alt="image" src="https://github.com/user-attachments/assets/7b494afd-c97e-4bb2-8809-f6299815cdd1" />
+<img width="361" height="348" alt="image" src="https://github.com/user-attachments/assets/3bacdc0b-6495-4d22-b744-99769f9b02e3" />
